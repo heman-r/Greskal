@@ -1,7 +1,7 @@
 const express = require("express")
 const path = require("path")
 
-const port = 3000;
+const port = 80;
 const app = express();
 
 app.use('/static', express.static(path.join("/home/neo/projects/Greskal/face/build/static")))
