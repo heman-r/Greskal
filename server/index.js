@@ -10,11 +10,11 @@ app.get("/tic", (req, res) => {
     res.sendFile(path.join("/home/ubuntu/Greskal/face", 'build', 'index.html'));
 })
 app.get("/portfolio", (req, res) => {
-    res.sendFile(path.join("/home/ubuntu/projects/Greskal/portfolio", 'build', 'index.html'));
+    res.sendFile(path.join("/home/ubuntu/Greskal/portfolio", 'build', 'index.html'));
 })
 
 app.get("/background-about-me.jpg", (req, res) => {
-    res.sendFile(path.join("/home/ubuntu/projects/Greskal/portfolio", 'build', 'background-about-me.jpg'));
+    res.sendFile(path.join("/home/ubuntu/Greskal/portfolio", 'build', 'background-about-me.jpg'));
 })
 
 app.get("/", (req, res)=>{
