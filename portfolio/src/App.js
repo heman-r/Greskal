@@ -8,7 +8,7 @@ function App() {
     <div className="page">
       <div className="intro">
         <div className="data-section">
-          <div>
+          <div className="show-check">
             <ul className="link-set-1">
               <a className="hover" href="#about-me">
                 About me
@@ -57,6 +57,41 @@ function App() {
           </img>
         </div>
       </div>
+
+      <div className="data-section show">
+          <div>
+            <ul className="link-set-1">
+              <a className="hover" href="#about-me">
+                About me
+              </a >
+              <a className="hover" href="#experience">
+                Work experience
+              </a>
+              <a className="hover" href="#skills">
+                Skills
+              </a>
+              <a className="hover" href="#projects">
+                Projects
+              </a>
+            </ul>
+            <ul className="link-set-2">
+              <a className="hover" href="#Education">
+                Education
+              </a>
+              <a className="hover" href="#about-me">
+                Why you hire me
+              </a>
+              <a className="hover" href="#about-me">
+                Styles
+              </a>
+              <a className="hover" href="#about-me">
+                Software
+              </a>
+            </ul>
+          </div>
+          
+        </div>
+
       <section id="about-me" className="about-me">
         <div className="about-head">
           About me
