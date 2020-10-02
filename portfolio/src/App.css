@@ -86,19 +86,34 @@
       flex-wrap: wrap;
       padding: 0%;
       color: #015761;
+      text-align: center;
     }
     .link-set-1 *{
+      padding: 1%;
       flex-basis: 32%;
       color: #015761;
+      transition: transform .5s ease;
     }
     .link-set-2{
       flex-wrap: wrap;
       padding: 0%;
       color: #015761;
+      text-align: center;
     } 
     .link-set-2 *{
+      padding: 1%;
       flex-basis: 32%;
-    } 
+      transition: transform .5s ease;
+    }
+
+    .link-set-1 *:hover{
+      color: #013338;
+      transform: scale(1.1);  
+    }
+    .link-set-2 *:hover{
+      color: #013338;
+      transform: scale(1.1);  
+    }
   }
 
   .intro-line{
@@ -138,10 +153,12 @@
 
   .hover{
     padding: 1%;
+    transition: transform .5s ease;
   }
 
   .hover:hover{
-    color: rgb(39, 48, 58);
+    color: yellow;
+    transform: scale(1.1);  
   }
 
   .about-me{
@@ -283,6 +300,18 @@
     width: 33%;
     margin-left: 1%;
     padding: 1%;
+  }
+
+  @media screen and (max-width: 900px){
+    .projects-block{
+      display: block;
+      letter-spacing: 1px;
+    }
+    .p-bl-1{
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 2%;
+    }
   }
 
   .project-2-view{
