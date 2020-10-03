@@ -9,12 +9,12 @@ const app = express();
 
 app.use('/static', express.static(path.join("/home/ubuntu/Greskal/portfolio/build/static")))
 
-app.get('*', function(req, res) {  
-    res.redirect('https://' + req.headers.host + req.url);
+// app.get('*', function(req, res) {  
+//     res.redirect('https://' + req.headers.host + req.url);
 
-    // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
-    // res.redirect('https://example.com' + req.url);
-})
+//     // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
+//     // res.redirect('https://example.com' + req.url);
+// })
 
 app.get("/tic", (req, res) => {
     res.sendFile(path.join("/home/ubuntu/Greskal/face", 'build', 'index.html'));
@@ -34,8 +34,7 @@ app.get("/", (req, res)=>{
 
 
 https.createServer({
-    key: fs.readFileSync('/home/ubuntu/Certificate/key.pem'),
-    cert: fs.readFileSync('/home/ubuntu/Certificate/cert.pem'),
-    passphrase: 'pass'
+    key: fs.readFileSync('/home/ubuntu/auth-cert/privkey.pem'),
+    cert: fs.readFileSync('/home/ubuntu/auth-cert/cert.pem')
     },app).listen(443, () => console.log('###Https server listening on port 443###'));
 
