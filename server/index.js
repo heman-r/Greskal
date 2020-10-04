@@ -34,11 +34,11 @@ app.get("/", (req, res)=>{
 https.createServer({
     key: fs.readFileSync('/home/ubuntu/auth-cert/privkey.pem'),
     cert: fs.readFileSync('/home/ubuntu/auth-cert/cert.pem')
-    },app).listen(443, () => console.log('###Https server listening on port 443###'));
+    },app).listen(3000, () => console.log('###Https server listening on port 443###'));
 
 // Redirect from http port 80 to https
 http.createServer(function (req, res) {
     res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
     res.end();
-}).listen(80);
+}).listen(3001);
 
