@@ -1,5 +1,5 @@
 import React from 'react';
-import pic_me from './t2.jpg';
+import pic_me from './m7.jpg';
 import './App.css';
 
 function App() {
@@ -27,19 +27,19 @@ function App() {
               <a className="hover" href="#Education">
                 Education
               </a>
-              <a className="hover" href="#about-me">
-                Why you hire me
+              <a className="hover" href="#values">
+                Values
               </a>
-              <a className="hover" href="#about-me">
-                Styles
+              <a className="hover" href="#why-hire-me">
+              Why hire me
               </a>
-              <a className="hover" href="#about-me">
-                Software
+              <a className="hover" href="#interest">
+              Interests
               </a>
             </ul>
           </div>
           <div className="intro-line">
-            <ul>
+            <ul className="intro-line-ul">
               <li className="intro-1">
                 Hey, I'm
               </li>
@@ -78,14 +78,14 @@ function App() {
               <a className="" href="#Education">
                 Education
               </a>
-              <a className="" href="#about-me">
-                Why you hire me
+              <a className="" href="#Values">
+              Values
               </a>
-              <a className="" href="#about-me">
-                Styles
+              <a className="" href="#why-hire-me">
+                Why hire me
               </a>
-              <a className="" href="#about-me">
-                Software
+              <a className="" href="#interest">
+              Interests
               </a>
             </ul>
           </div>
@@ -110,6 +110,8 @@ I always try to uphold this motto everyday in my life. The greatest obstacle a p
         
       </section>
       <section id="Education" className="education">
+        
+        <div className="edu-body">
         <div className="education-head">
           Education
         </div>
@@ -185,6 +187,7 @@ I always try to uphold this motto everyday in my life. The greatest obstacle a p
             </div>
           </div>
         </div>
+        </div>
         
       </section>
 
@@ -225,8 +228,8 @@ about grooming a set of people to adept professionals.
         
       </section>
 
-      <section id="projects" className="about-me">
-        <div className="about-head">
+      <section id="projects" className="project">
+        <div className="project-head">
           Projects
         </div>
         <div className="about-view">
@@ -339,6 +342,53 @@ management</span>
         <span>Microsoft office</span><span>Powerpoin</span><span>Gephi</span><span>Adobe Photoshop</span>
         </div>
 
+      </section>
+
+      <section id="values" className="about-me">
+        <div className="about-head">
+          Values
+        </div>
+        {/* <div className="about-view">
+          "Dive deeper, rather than a swim"
+        </div> */}
+        <div className="about-para">
+        Personal values distinguishably identifies a person and it defines the daily life of a person. Personal values create the perspective of a person and how determines how he face the various scenarios in the life. I am a optimistic person and strongly believes that if we do our part in smart way then success will definitely follow us. Whenever I approaches a incident, I always tries to figure out the positive part in it and the scope for growth in it, either in a professional or personal way.
+I am person who sticks to strong work ethics and always stick on with the deadlines. If something is not going as expected, then I would inform the related persons on the same, in order to avoid the last minute surprises. I always like to take responsibilities and tries my maximum to live up to that. Trust is an inevitable part of me. If someone is trusting you, then you have the responsibility to work and to be truthful to him. Business and everything in life is build on the basics of the trust.
+I am always loyal to whoever trusts in me and adaptable to new situation. I believe loyalty, trust, dependability and communication helps to build a great team and these are the base values every team must possess. Every individual is part of the society and to build a great society everyone must give importance to good personal values. A good society can mould the people within that society.
+
+        </div>
+        
+      </section>
+      <section id="why-hire-me" className="about-me">
+        <div className="about-head">
+          Why hire me
+        </div>
+        {/* <div className="about-view">
+          "Dive deeper, rather than a swim"
+        </div> */}
+        <div className="about-para">
+        I have completed bachelors in computer science and post graduation in Information technology business analysis(ITBA). These two courses gave me a great insight of the Information technology and have good base about the computers. ITBA course helped me to go deeper into the business side of IT industry and gain great knowledge in client management and requirement analysis. After completing my bachelors in computer science, I worked as a software developer for about five years. This experience helped me to understand the actual development of the software and how actually things work in a organization. I faced various scenarios during my work experience as  software developer and I could understand what will help to manage a situation better, whether its proper communication, requirement analysis or timely development demonstration. I have a clear insight about what a developer will be looking for to develop a feature of the project or where he needs proper client inputs. Hence, I could act as  perfect bridge between the software developers and client. During my coursework on business analysis, I was able to study deeper based on my past experience with software development.
+I am great team player and adept in managing a team. I always give importance to work ethic and proper communication as these two are the most important part of a successful project.
+I expect a employee friendly work environment with chances to learn and face challenging situations. I believe in completing work in the smartest way rather than spending hours of time in the orthodox way.
+
+        </div>
+        
+      </section>
+
+      <section id="interest" className="about-me">
+        <div className="about-head">
+         Interests
+        </div>
+        {/* <div className="about-view">
+          "Dive deeper, rather than a swim"
+        </div> */}
+        <div className="about-para">
+        I love to spend my free time on various type of activities and each of these activities are a learning experience for me. Usually I like to read books during my free time. Reading books help us to gain a deeper view on the specifics of situations, that we may miss while watching a movie. I love watching movies, they helps us to see our society in different perspectives. Music always entertains me and love listening to music. Nowadays, I am trying to learn guitar and it’s an awesome experience for me.
+Sports has been my passion since childhood. I play a variety of games, some of them are cricket, badminton, judo, football, table tennis, volleyball etc. Most of the days at evenings after my work, I love to play badminton, it helps me to maintain my physical health and boost sportsmanship. I used to be part of my college badminton team. During my time as a developer at Qburst technologies, the company used to host badminton and volleyball championships among its various branches. I have won badminton championship there and our team were the volleyball champions at Qburst.
+I love to check on new technologies during my free time and watch videos on innovative ideas and upcoming technologies like Quantum computing and self driving cars. This helps me to be update with the fast growing tech industry. I love to spend time in social media sites like linkedin, twitter and facebook. Technical discussion sites like stackoverflow and stackexchange also draws my attention. I also used to spend time in open source discussion communities.
+
+        </div>
+        
       </section>
 
     </div>

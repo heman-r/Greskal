@@ -22,8 +22,18 @@
     background: linear-gradient(
       rgba(0, 0, 30, 0.45), 
       rgba(0, 0, 30, 0.45)
-    ),url(/background-about-me.jpg);
+    ),url(/gh3.jpg);
     background-attachment: fixed;
+  }
+
+  .edu-body{
+    background: linear-gradient(
+      rgba(0, 0, 30, 0.45), 
+      rgba(0, 0, 30, 0.45)
+    ),url(/g.jpg);
+    padding-bottom: 5%;
+    color: white;
+    /* background-attachment: fixed; */
   }
 
   .data-section{
@@ -68,6 +78,7 @@
     font-weight: 400;
     font-size: 21px;
     color: white;
+    margin-bottom: 0;
   }
 
   .link-set-2{
@@ -79,6 +90,7 @@
     font-weight: 400;
     font-size: 21px;
     color: white;
+    margin-top:0;
   }
 
   @media screen and (max-width: 900px){
@@ -118,7 +130,13 @@
 
   .intro-line{
     padding: 5%;
+    padding-top: 0;
   }
+
+.intro-line-ul{
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
 
   .intro-1{
     font-size: 40px;
@@ -132,7 +150,7 @@
   .intro-2, .intro-3{
     font-size: 80px;
     font-weight: 900;
-    color:yellow;
+    color:#2DCACF;
     margin-bottom: 1%;
   }
 
@@ -157,7 +175,7 @@
   }
 
   .hover:hover{
-    color: yellow;
+    color: #2DCACF;
     transform: scale(1.1);  
   }
 
@@ -169,8 +187,26 @@
     padding-right: 0%;
     font-family: Arial,Helvetica,sans-serif;
     background-color: aliceblue;
-    color: #015761;
+    /* color: #015761; */
+    color: black;
     font-weight: 600;
+  }
+
+  .project{
+    clear: both;
+    text-align: center;
+    padding: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: aliceblue;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(
+      rgba(0, 0, 30, 0.45), 
+      rgba(0, 0, 30, 0.45)
+    ),url(/p6.jpg);
+    padding-bottom: 5%;
   }
 
   .about-head{
@@ -178,6 +214,13 @@
     font-size: 40px;
     font-weight: 400;
     background-color: white;
+  }
+
+  .project-head{
+    padding: 2%;
+    font-size: 40px;
+    font-weight: 500;
+    /* background-color: white; */
   }
 
   .about-view{
@@ -218,7 +261,7 @@
     padding: 2%;
     font-size: 40px;
     font-weight: 400;
-    background-color: white;
+    /* background-color: white; */
   }
 
   .edu-view{
@@ -227,7 +270,7 @@
   
   .edu-view:hover{
     font-weight: 700;
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 
   .education-view{
@@ -255,15 +298,23 @@
     justify-content: space-between;
   }
 
+  .education-para *{
+    opacity:.8;
+  }
+
+  .education-view *{
+    opacity: .90;
+  }
+
   .edu-block-1{
     width: 50%;
     margin-right: 1%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
 
   .edu-block-2{
     width: 50%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
 
   .education-view-1{
@@ -296,7 +347,7 @@
   }
 
   .p-bl-1{
-    background-color: aquamarine;
+    background-color: #A5AABE;
     width: 33%;
     margin-left: 1%;
     padding: 1%;
@@ -328,10 +379,11 @@
   }
 
   .skill-label *{
-    background-color: aquamarine;
+    background-color: #3E616F;
     padding: .75%;
     flex-basis: 12%;
     margin: 1%;
+    color: white;
   }
 
   @media screen and (max-width: 900px){
@@ -348,10 +400,11 @@
   }
 
   .skill-label-ss *{
-    background-color: aquamarine;
+    background-color: #3E616F;
     padding: .75%;
     flex-basis: 20%;
     margin: 1%;
+    color: white;
   }
 
   .show{
