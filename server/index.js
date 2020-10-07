@@ -27,6 +27,18 @@ app.get("/background-about-me.jpg", (req, res) => {
     res.sendFile(path.join("/home/ubuntu/Greskal/portfolio", 'build', 'background-about-me.jpg'));
 })
 
+app.get("/gh3.jpg", (req, res) => {
+    res.sendFile(path.join("/home/ubuntu/Greskal/portfolio", 'build', 'gh3.jpg'));
+})
+
+app.get("/g.jpg", (req, res) => {
+    res.sendFile(path.join("/home/ubuntu/Greskal/portfolio", 'build', 'g.jpg'));
+})
+
+app.get("/p6.jpg", (req, res) => {
+    res.sendFile(path.join("/home/ubuntu/Greskal/portfolio", 'build', 'p6.jpg'));
+})
+
 app.get("/", (req, res)=>{
     res.send("Hello world!");
 })
