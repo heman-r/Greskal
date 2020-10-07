@@ -243,6 +243,7 @@ textile industry. Following are my key contributions to that project in its vari
         </div>
         <div className="projects-block">
           <div className="p-bl-1">
+            <div>
           Front end mobile
           <br></br><br></br>
           <div>
@@ -254,8 +255,10 @@ Built shopping cart functionality to add products for checkout for the users<br>
 Leveraged knowledge in Full stack web development, Javascript, Git, Angular.js,
 Akamai, Demandware
 </div>
+</div>
           </div>
           <div className="p-bl-1">
+            <div>
           Catalog Platform
           <br></br><br></br>
           <div>
@@ -266,14 +269,17 @@ Deployment and management of databases<br></br>
 Leveraged knowledge in Node.js, Mongo db, Express, Jenkins, third party
 integrations
             </div>
+            </div>
           </div>
 
           <div className="p-bl-1">
+            <div>
           Content Management System
           <br></br><br></br>
           <div>          Implemented server platform for dynamic management of contents in mobile
 websites.<br></br>Integrated content database and provided functionality for content creation
 <br></br>Leveraged knowledge in Amazon web services, SQL, Pyhton, Html, Css
+          </div>
           </div>
           </div>
 

@@ -299,7 +299,7 @@
   }
 
   .education-para *{
-    opacity:.8;
+    opacity:.9;
   }
 
   .education-view *{
@@ -309,11 +309,13 @@
   .edu-block-1{
     width: 50%;
     margin-right: 1%;
+    background-color: rgb(155, 201, 225, .5);
     /* background-color: aquamarine; */
   }
 
   .edu-block-2{
     width: 50%;
+    background-color: rgb(155, 201, 225, .5);
     /* background-color: aquamarine; */
   }
 
