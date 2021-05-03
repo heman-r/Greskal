@@ -100,7 +100,10 @@ function App() {
           "Dive deeper, rather than a swim"
         </div>
         <div className="about-para">
-        I am a Business analyst and a software developer, who likes to understand and watch things closely. I believe in the fact that we should make our decisions after having a good knowledge about a subject. Meaningful communication always leads to a successful project and I always try to establish the same. I am an energetic, optimistic and self motivated fellow. I have gone through a lot of failures and convoluted scenarios. The most beautiful part of those painful times is that I gained new insights from them and it changed my perceptions about life. Innovative ideas pave the path for change in the world, I always try to analyze and approach situations in different ways. Sometimes it may lead to failure, but I always believe in the fact that failures are the basic steps to success.
+        I am a web developer with five years of experience in backend and front end
+technologies. Developed web applications for business purpose e-commerce systems using Agile
+methodology. My areas of expertise are JavaScript ( Node.js, Angular JS, React.js), Python, HTML,
+CSS, MongoDB and AWS and I have a keen interest in microservice architecture. I am an energetic, optimistic and self motivated fellow. I have gone through a lot of failures and convoluted scenarios. The most beautiful part of those times is that, I gained new insights from them and it changed my perceptions about life. Innovative ideas pave the path for change in the world, I always try to analyze and approach situations in different ways. Sometimes it may lead to failure, but I always believe in the fact that failures are the basic steps to success.<br></br>
 
 I am a huge fan of Elon Musk and how he brings his innovative ideas to reality. One of his quotes that inspired me is 
 “"When something is important enough, you do it even if the odds are not in your favor."”
@@ -373,10 +376,20 @@ I am always loyal to whoever trusts in me and adaptable to new situation. I beli
           "Dive deeper, rather than a swim"
         </div> */}
         <div className="about-para">
-        I have completed bachelors in computer science and post graduation in Information technology business analysis(ITBA). These two courses gave me a great insight of the Information technology and have good base about the computers. ITBA course helped me to go deeper into the business side of IT industry and gain great knowledge in client management and requirement analysis. After completing my bachelors in computer science, I worked as a software developer for about five years. This experience helped me to understand the actual development of the software and how actually things work in a organization. I faced various scenarios during my work experience as  software developer and I could understand what will help to manage a situation better, whether its proper communication, requirement analysis or timely development demonstration. I have a clear insight about what a developer will be looking for to develop a feature of the project or where he needs proper client inputs. Hence, I could act as  perfect bridge between the software developers and client. During my coursework on business analysis, I was able to study deeper based on my past experience with software development.
-I am great team player and adept in managing a team. I always give importance to work ethic and proper communication as these two are the most important part of a successful project.
-I expect a employee friendly work environment with chances to learn and face challenging situations. I believe in completing work in the smartest way rather than spending hours of time in the orthodox way.
+          I have an extensivce experience in backend and front end devlopment.
+          I develop scalable and performance oriented applications, that are relaible and dependable.
+          Technology is my passion and i always tries to be upto-date with leading edge tech.
+          I am great team player and adept in managing a team. 
+          I always give importance to work ethic and proper communication as these two are the most important part of a successful project.
+          I expect an employee friendly work environment with chances to learn and face challenging situations. 
+          I believe in completing work in the smartest way rather than spending hours of time in the orthodox way.
 
+
+        <br></br>I had a keen interest in internal working of an IT organization 
+        and i did a Information technology business analysis course, 
+        which helped me to go deeper into the business side of IT industry and gain great knowledge in client management and requirement analysis. 
+        I have faced various complicated scenarios during my work experience as a software developer and I know how to handle tense situations. 
+        I have a clear insight about what a developer needs to develop a feature of the project or where he needs proper client inputs.
         </div>
         
       </section>
